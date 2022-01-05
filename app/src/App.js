@@ -12,15 +12,15 @@ export default function App() {
     <div className="mainContainer">
 
       <div className="dataContainer">
-        <div className="header">
-        👋 Hey there!
+        <div className="header text-white">
+        🚀 Hey there!
         </div>
 
-        <div className="bio">
-        I am farza and I worked on self-driving cars so that's pretty cool right? Connect your Ethereum wallet and wave at me!
+        <div className="bio text-gray-300 my-4">
+        I am Davide and I copy things from other changing a bit the colors so that's pretty cool right? Connect your Ethereum wallet and wave at me!
         </div>
 
-        <button className="waveButton" onClick={wave}>
+        <button className="waveButton bg-indigo-500 text-white" onClick={wave}>
           Wave at Me
         </button>
       </div>
