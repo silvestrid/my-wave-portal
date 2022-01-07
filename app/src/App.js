@@ -115,7 +115,9 @@ export default function App() {
         },
         ...prevState,
       ]);
-      toast(`There's a new wave: ${message}`, { icon: '🌊' });
+      setTimeout(() => {
+        toast(`There's a new wave`, { icon: '🌊' });
+      }, 100);
     };
 
     if (window.ethereum) {
