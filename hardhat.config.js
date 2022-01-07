@@ -21,6 +21,7 @@ module.exports = {
   networks: {
     rinkeby: {
       url: "https://eth-rinkeby.alchemyapi.io/v2/2ZBQEchpO60qQ870RmipOViRgdI435qK",
+      // insert your metamask private key here
       accounts: [],
     },
   },
